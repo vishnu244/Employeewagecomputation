@@ -55,12 +55,7 @@ namespace Employeewage
             Console.WriteLine("Total Working Days = " + totalworkingdays + " and Total Employee hours = " + totalemphrs);
             Console.WriteLine("Total Employee Wage for company " + company + " is : " + totalempwage);
             Console.WriteLine("\n");
-        }
-
-        public string tostring()
-        {
-            return "Total Employee wage for company " + this.company + " is : " + this.totalempwage;
-        }
+        }        
 
     }
 }
