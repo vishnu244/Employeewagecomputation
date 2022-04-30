@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employeewage
 {
-    public class WageCalculation
+    public class wageCalculation
     {
         public const int is_part_time = 1;
         public const int is_full_time = 2;
@@ -17,7 +17,7 @@ namespace Employeewage
         public int maxhrpermnt;
         public int totalempwage;
 
-        public WageCalculation(string company, int emprateperhr, int numofworkingdays, int maxhrpermnt)
+        public wageCalculation(string company, int emprateperhr, int numofworkingdays, int maxhrpermnt)
         {
             this.company = company;
             this.emprateperhr = emprateperhr;
