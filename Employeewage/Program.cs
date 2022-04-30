@@ -15,6 +15,7 @@ public class wageforeachcompany
             Console.WriteLine("choose the program to be executed:\n8)wage for multiple companies\n9)total wage for each company\n10)different Empwages for different companies");
 
 
+
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -44,3 +45,4 @@ public class wageforeachcompany
         }
     }
 }
+
