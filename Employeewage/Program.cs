@@ -33,7 +33,7 @@ public class wageforeachcompany
                     BridgeLabs.computewage();
                     break;
                 case 10:
-                    EmpWageBuilderArray empWageBuilder = new EmpWageBuilderArray();
+                    EmpWageBuilder empWageBuilder = new EmpWageBuilder();
                     empWageBuilder.addCompanyEmpWage("Amazon", 20, 5, 100);
                     empWageBuilder.addCompanyEmpWage("Bridge Labs", 25, 5, 120);
                     empWageBuilder.computeEmpWage();
