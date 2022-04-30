@@ -36,7 +36,10 @@ public class wageforeachcompany
                     EmpWageBuilder empWageBuilder = new EmpWageBuilder();
                     empWageBuilder.addCompanyEmpWage("Amazon", 20, 5, 100);
                     empWageBuilder.addCompanyEmpWage("Bridge Labs", 25, 5, 120);
-                    empWageBuilder.computeEmpWage();
+                    empWageBuilder.ComputeEmpWage();
+                    Console.Write("Total wage for company Amazon :" );
+                    empWageBuilder.getTotalWage("Amazon");
+                    Console.WriteLine("\n");
                     break;
 
 
